@@ -2,6 +2,7 @@
 
 
 #include "RangeCheckComponent.h"
+#include "Kismet\GameplayStatics.h"
 
 // Called when the game starts
 void URangeCheckComponent::BeginPlay()
