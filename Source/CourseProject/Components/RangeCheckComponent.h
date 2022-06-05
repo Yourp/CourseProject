@@ -13,11 +13,11 @@ DECLARE_DELEGATE(FOnLeaveZone);
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class URangeCheckComponent : public UActorComponent
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:	
-	/** Sets default values for this component's properties. */
-	URangeCheckComponent();
+    /** Sets default values for this component's properties. */
+    URangeCheckComponent();
 
     /** Called when the target has entered the trigger area. */
     FOnEnterZone OnEnterZoneDelegate;
@@ -30,8 +30,8 @@ public:
 
 protected:
 
-	/** Called when the game starts. */
-	virtual void BeginPlay() override;
+    /** Called when the game starts. */
+    virtual void BeginPlay() override;
 
 private:
 

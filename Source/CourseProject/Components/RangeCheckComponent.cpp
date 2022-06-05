@@ -12,7 +12,7 @@ void URangeCheckComponent::BeginPlay()
     Target = Cast<AActor>(UGameplayStatics::GetPlayerPawn(World, 0));
     check(Target);
 
-	Super::BeginPlay();
+    Super::BeginPlay();
 
     World->GetTimerManager().SetTimer(TimerOfUpdate, this, &URangeCheckComponent::UpdateOutOfZone, DelayOfCheck, true);
 }
