@@ -16,8 +16,6 @@ class URangeCheckComponent : public UActorComponent
     GENERATED_BODY()
 
 public:	
-    /** Sets default values for this component's properties. */
-    URangeCheckComponent();
 
     /** Called when the target has entered the trigger area. */
     FOnEnterZone OnEnterZoneDelegate;
