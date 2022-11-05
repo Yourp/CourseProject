@@ -6,7 +6,7 @@
 #include "Components/ActorComponent.h"
 #include "RangeCheckComponent.generated.h"
 
-DECLARE_DELEGATE_OneParam(FOnEnterZone, AActor const*);
+DECLARE_DELEGATE_OneParam(FOnEnterZone, AActor*);
 DECLARE_DELEGATE(FOnLeaveZone);
 
 /** The component checks the distance to the target with a certain frequency and calls the appropriate events. */
